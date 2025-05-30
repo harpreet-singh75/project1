@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+}
+.container{
+    margin: auto;
+    margin-top: 5rem;
+    box-shadow: 0 0 4px;
+    border-radius: 5px;
+    gap: 1.5rem;
+}
+.header{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.7rem;
+}
+#search_bar{
+    width: 90%;
+    margin: auto;
+    height: 2.8rem;
+    border-radius: 8px;
+}
+.user{
+    display: flex;
+    background-color: rgba(214, 214, 212, 0.178); 
+    height: 4rem; 
+    align-items: center;
+    margin-left: 5%;
+    width: 90%;
+    gap: 1.5rem;
+}
+.userimage{
+    margin-left: 1rem;
+    background-image: url("image.svg");
+    background-size: cover;
+}
